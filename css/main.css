@@ -17,10 +17,13 @@ h1, p, a, li {
 
 @media only screen and (min-width: 60em) {
 
-  .masthead, nav {
+  .masthead {
     text-align: left;
   }
 
+  .nav {
+    text-align: right;
+  }
 }
 
 @media only screen and (min-width: 90em) {
