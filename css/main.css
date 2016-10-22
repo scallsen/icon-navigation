@@ -1,7 +1,30 @@
+html {
+  font-family: "Abhaya Libre", serif;
+}
+
 header {
   background-color: #423ca3;
 }
 
 h1, p, a, li {
   color: white;
+}
+
+.btn {
+  background-color: #15114c;
+  border-color: #15114c;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead, nav {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
 }
