@@ -2,10 +2,6 @@ html {
   font-family: "Abhaya Libre", serif;
 }
 
-header {
-  background-color: #423ca3;
-}
-
 h1, p, a, li {
   color: #fff;
 }
@@ -13,6 +9,19 @@ h1, p, a, li {
 .btn {
   background-color: #15114c;
   border-color: #15114c;
+}
+
+.masthead {
+  text-align: center;
+  background-color: #423ca3;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
 }
 
 @media only screen and (min-width: 60em) {
@@ -24,10 +33,4 @@ h1, p, a, li {
   .nav {
     text-align: right;
   }
-}
-
-@media only screen and (min-width: 90em) {
-
-
-
 }
